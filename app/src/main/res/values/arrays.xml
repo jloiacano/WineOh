@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Category dropdown -->
+    <string-array name="array_category_options">
+        <item>@string/category_choose</item>
+        <item>@string/category_red</item>
+        <item>@string/category_white</item>
+        <item>@string/category_dessert</item>
+        <item>@string/category_fortified</item>
+    </string-array>
+    <!-- Reds dropdown -->
+    <string-array name="array_reds_options">
+        <item>@string/red_choose</item>
+        <item>@string/red_alicante</item>
+        <item>@string/red_baco_noir</item>
+        <item>@string/red_barbera</item>
+        <item>@string/red_cabernet_franc</item>
+        <item>@string/red_cabernet_sauvignon</item>
+        <item>@string/red_gamay</item>
+        <item>@string/red_grenache_garnacha</item>
+        <item>@string/red_malbec</item>
+        <item>@string/red_merlot</item>
+        <item>@string/red_mourvedre_mataro</item>
+        <item>@string/red_nebbiolo</item>
+        <item>@string/red_pinot_meunier</item>
+        <item>@string/red_pinot_noir</item>
+        <item>@string/red_primitivo</item>
+        <item>@string/red_sangiovese</item>
+        <item>@string/red_syrah_shiraz</item>
+        <item>@string/red_touriga_nacional</item>
+        <item>@string/red_zinfandel</item>
+    </string-array>
+
+    <!-- Whites dropdown -->
+    <string-array name="array_whites_options">
+        <item>@string/white_choose</item>
+        <item>@string/white_albarino</item>
+        <item>@string/white_aligote</item>
+        <item>@string/white_assyrtiko</item>
+        <item>@string/white_chablis</item>
+        <item>@string/white_chardonnay</item>
+        <item>@string/white_chenin_blanc</item>
+        <item>@string/white_cortese</item>
+        <item>@string/white_gargenega</item>
+        <item>@string/white_gewurztraminer</item>
+        <item>@string/white_grenach_blanc</item>
+        <item>@string/white_gruner_veltliner</item>
+        <item>@string/white_marsanne</item>
+        <item>@string/white_muller_thurgau</item>
+        <item>@string/white_muscadet</item>
+        <item>@string/white_picpoul</item>
+        <item>@string/white_pinot_blanc</item>
+        <item>@string/white_pinot_grigio</item>
+        <item>@string/white_riesling</item>
+        <item>@string/white_sauvignon_blanc</item>
+        <item>@string/white_semillon</item>
+        <item>@string/white_torrontes</item>
+        <item>@string/white_trebbiano</item>
+        <item>@string/white_ugni_blanc</item>
+        <item>@string/white_verdejo</item>
+        <item>@string/white_verdicchio</item>
+        <item>@string/white_vermentino</item>
+        <item>@string/white_vinho_verde</item>
+        <item>@string/white_viognier</item>
+        <item>@string/white_white_rioja</item>
+    </string-array>
+
+    <!-- Desserts dropdown -->
+    <string-array name="array_desserts_options">
+        <item>@string/dessert_choose</item>
+        <item>@string/dessert_ice_wine</item>
+        <item>@string/dessert_late_havest</item>
+        <item>@string/dessert_madeira</item>
+        <item>@string/dessert_malvasia</item>
+        <item>@string/dessert_sauternes</item>
+        <item>@string/dessert_sherry</item>
+        <item>@string/dessert_tokaji</item>
+        <item>@string/dessert_vin_santo</item>
+        <item>@string/dessert_white_port</item>
+    </string-array>
+
+    <!-- Fortifieds dropdown -->
+    <string-array name="array_fortifieds_options">
+        <item>@string/fortified_choose</item>
+        <item>@string/fortified_amontillado</item>
+        <item>@string/fortified_commandaria</item>
+        <item>@string/fortified_madeira</item>
+        <item>@string/fortified_marsala</item>
+        <item>@string/fortified_mistelle</item>
+        <item>@string/fortified_moscatel_de_situbal</item>
+        <item>@string/fortified_muscat_of_samos</item>
+        <item>@string/fortified_port</item>
+        <item>@string/fortified_rasteau</item>
+        <item>@string/fortified_sherry</item>
+        <item>@string/fortified_vermouth</item>
+    </string-array>
+
+    <!-- Bottle size dropdown -->
+    <string-array name="array_bottle_sizes">
+        <item>@string/bottlesize_choose</item>
+        <item>@string/bottlesize_split</item>
+        <item>@string/bottlesize_half</item>
+        <item>@string/bottlesize_standard</item>
+        <item>@string/bottlesize_magnum</item>
+        <item>@string/bottlesize_double_magnum</item>
+        <item>@string/bottlesize_jeroboam</item>
+        <item>@string/bottlesize_imperial</item>
+        <item>@string/bottlesize_salmanazar</item>
+        <item>@string/bottlesize_balthazar</item>
+        <item>@string/bottlesize_nebuchadnezzar</item>
+    </string-array>
+
+    <!-- States (US) dropdown -->
+    <string-array name="array_us_states">
+        <item>@string/states_choose</item>
+        <item>@string/states_alabama</item>
+        <item>@string/states_alaska</item>
+        <item>@string/states_american_samoa</item>
+        <item>@string/states_arizona</item>
+        <item>@string/states_arkansas</item>
+        <item>@string/states_california</item>
+        <item>@string/states_colorado</item>
+        <item>@string/states_connecticut</item>
+        <item>@string/states_delaware</item>
+        <item>@string/states_district_of_colombia</item>
+        <item>@string/states_florida</item>
+        <item>@string/states_georgia</item>
+        <item>@string/states_guam</item>
+        <item>@string/states_hawaii</item>
+        <item>@string/states_idaho</item>
+        <item>@string/states_illinois</item>
+        <item>@string/states_indiana</item>
+        <item>@string/states_iowa</item>
+        <item>@string/states_kansas</item>
+        <item>@string/states_kentucky</item>
+        <item>@string/states_louisiana</item>
+        <item>@string/states_maine</item>
+        <item>@string/states_maryland</item>
+        <item>@string/states_massachusetts</item>
+        <item>@string/states_michigan</item>
+        <item>@string/states_minnesota</item>
+        <item>@string/states_mississippi</item>
+        <item>@string/states_missouri</item>
+        <item>@string/states_montana</item>
+        <item>@string/states_nebraska</item>
+        <item>@string/states_nevada</item>
+        <item>@string/states_new_hampshire</item>
+        <item>@string/states_new_jersey</item>
+        <item>@string/states_new_mexico</item>
+        <item>@string/states_new_york</item>
+        <item>@string/states_north_carolina</item>
+        <item>@string/states_north_dakota</item>
+        <item>@string/states_northern_marianas_islands</item>
+        <item>@string/states_ohio</item>
+        <item>@string/states_oklahoma</item>
+        <item>@string/states_oregon</item>
+        <item>@string/states_pennsylvania</item>
+        <item>@string/states_puerto_rico</item>
+        <item>@string/states_rhode_island</item>
+        <item>@string/states_south_carolina</item>
+        <item>@string/states_south_dakota</item>
+        <item>@string/states_tennessee</item>
+        <item>@string/states_texas</item>
+        <item>@string/states_utah</item>
+        <item>@string/states_vermont</item>
+        <item>@string/states_virgin_islands</item>
+        <item>@string/states_virginia</item>
+        <item>@string/states_washington</item>
+        <item>@string/states_west_virginia</item>
+        <item>@string/states_wisconsin</item>
+        <item>@string/states_wyoming</item>
+    </string-array>
+
+    <string-array name="array_top_wine_countries">
+        <item>@string/countries_choose</item>
+        <item>@string/countries_albania</item>
+        <item>@string/countries_algeria</item>
+        <item>@string/countries_argentina</item>
+        <item>@string/countries_armenia</item>
+        <item>@string/countries_australia</item>
+        <item>@string/countries_austria</item>
+        <item>@string/countries_azerbaijan</item>
+        <item>@string/countries_belarus</item>
+        <item>@string/countries_belgium</item>
+        <item>@string/countries_bolivia</item>
+        <item>@string/countries_bosnia_and_herzegovina</item>
+        <item>@string/countries_brazil</item>
+        <item>@string/countries_bulgaria</item>
+        <item>@string/countries_canada</item>
+        <item>@string/countries_chile</item>
+        <item>@string/countries_china</item>
+        <item>@string/countries_colombia</item>
+        <item>@string/countries_croatia</item>
+        <item>@string/countries_cuba</item>
+        <item>@string/countries_cyprus</item>
+        <item>@string/countries_czech_republic</item>
+        <item>@string/countries_egypt</item>
+        <item>@string/countries_estonia</item>
+        <item>@string/countries_ethiopia</item>
+        <item>@string/countries_france</item>
+        <item>@string/countries_georgia</item>
+        <item>@string/countries_germany</item>
+        <item>@string/countries_greece</item>
+        <item>@string/countries_hungary</item>
+        <item>@string/countries_israel</item>
+        <item>@string/countries_italy</item>
+        <item>@string/countries_japan</item>
+        <item>@string/countries_jordan</item>
+        <item>@string/countries_kazakhstan</item>
+        <item>@string/countries_kyrgyzstan</item>
+        <item>@string/countries_latvia</item>
+        <item>@string/countries_lebanon</item>
+        <item>@string/countries_liechtenstein</item>
+        <item>@string/countries_lithuania</item>
+        <item>@string/countries_luxembourg</item>
+        <item>@string/countries_madegascar</item>
+        <item>@string/countries_malta</item>
+        <item>@string/countries_mexico</item>
+        <item>@string/countries_moldova</item>
+        <item>@string/countries_montenegro</item>
+        <item>@string/countries_morocco</item>
+        <item>@string/countries_new_zealand</item>
+        <item>@string/countries_panama</item>
+        <item>@string/countries_paraguay</item>
+        <item>@string/countries_peru</item>
+        <item>@string/countries_portugal</item>
+        <item>@string/countries_republic_of_macedonia</item>
+        <item>@string/countries_reunion</item>
+        <item>@string/countries_romania</item>
+        <item>@string/countries_russia</item>
+        <item>@string/countries_serbia</item>
+        <item>@string/countries_slovakia</item>
+        <item>@string/countries_slovenia</item>
+        <item>@string/countries_south_africa</item>
+        <item>@string/countries_spain</item>
+        <item>@string/countries_switzerland</item>
+        <item>@string/countries_syria</item>
+        <item>@string/countries_tajikistan</item>
+        <item>@string/countries_tukmenistan</item>
+        <item>@string/countries_tunisia</item>
+        <item>@string/countries_turkey</item>
+        <item>@string/countries_ukraine</item>
+        <item>@string/countries_united_kingdom</item>
+        <item>@string/countries_united_states</item>
+        <item>@string/countries_uruguay</item>
+        <item>@string/countries_uzbekistan</item>
+        <item>@string/countries_zimbabwe</item>
+    </string-array>
+
+</resources>

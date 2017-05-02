@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#722F37</color>
+    <color name="colorPrimaryDark">#56242A</color>
+    <color name="colorAccent">#FFC987</color>
+
+
+    <color name="whiteWine">#FFC987</color>
+    <color name="roseWine">#EE7272</color>
+    <color name="redWine">#722F37</color>
+    <color name="zinfandelWine">#56242A</color>
+</resources>

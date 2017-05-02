@@ -1,0 +1,333 @@
+<resources>
+    <string name="app_name">Wine Oh!</string>
+    <string name="details_activity_label_new">Enter Wine Details</string>
+    <string name="details_activity_label_edit">Edit Wine Details</string>
+
+    <!-- catalog menu strings -->
+    <string name="action_delete_all">DELETE ALL</string>
+
+    <!-- catalog UI strings -->
+    <string name="catalog_empty_state_text">Stop \'wine\'ing and click the new glass below.</string>
+    <string name="catalog_empty_image">Some spilled wine</string>
+
+    <!-- item UI strings -->
+    <string name="list_item_img_description">Image of the wine</string>
+    <string name="list_item_price_label">Price:</string>
+    <string name="list_item_currency">$</string>
+    <string name="list_item_quantity_label">Qty: </string>
+    <string name="list_item_minus_one">Minus one</string>
+
+    <!-- details UI strings -->
+    <string name="details_main_image_description">the image of the wine</string>
+    <string name="details_minus">minus</string>
+    <string name="details_plus">plus</string>
+    <string name="details_button_change_photo">CHANGE PHOTO</string>
+    <string name="details_text_view_cost">Cost:</string>
+    <string name="details_edittext_cost">COST</string>
+    <string name="details_text_view_price">Price:</string>
+    <string name="details_edittext_price">PRICE</string>
+    <string name="details_text_view_quantity">Qty.</string>
+    <string name="details_edittext_quantity">0</string>
+    <string name="details_edittext_winery">WINERY</string>
+    <string name="details_edittext_wine_name">WINE NAME</string>
+    <string name="details_edittext_year">YEAR</string>
+    <string name="details_edittext_distributor">DISTRIBUTOR</string>
+    <string name="details_edittext_distributor_phone">PHONE NUMBER</string>
+    <string name="details_edittext_description">PRODUCT DESCRIPTION</string>
+    <string name="details_delete_fail">DELETE FAILED</string>
+    <string name="details_delete_success">DELETED</string>
+    <string name="details_phone_delineator">-</string>
+    <string name="details_phone_zeroed">0</string>
+
+    <!-- details menu strings -->
+    <string name="details_menu_action_save">SAVE</string>
+    <string name="details_menu_action_decrement">(-1) Remove a bottle</string>
+    <string name="details_menu_action_increment">(+1) Add a bottle</string>
+    <string name="details_menu_action_decrement_a_case">(-12) Remove a case</string>
+    <string name="details_menu_action_increment_a_case">(+12) Add a case</string>
+    <string name="details_menu_action_delete_product_from_inventory">Delete this wine</string>
+    <string name="details_menu_action_order_more_product">ORDER MORE</string>
+
+    <!-- details dialog strings -->
+    <string name="details_camera_dialog_message">Please take a photo of the wine.</string>
+    <string name="details_camera_dialog_affirm">OK</string>
+    <string name="details_camera_dialog_deny">NO</string>
+    <string name="details_unsaved_scrap_or_go_back">You have unsaved changes!</string>
+    <string name="details_unsaved_scrap">Discard</string>
+    <string name="details_save_it">Save Changes</string>
+    <string name="details_unsaved_go_back">Go Back</string>
+    <string name="details_unsaved_title">Wait a second!</string>
+
+    <!-- All the categories -->
+    <string name="category_choose">CATEGORY-SELECT</string>
+    <string name="category_red">RED WINE</string>
+    <string name="category_white">WHITE WINE</string>
+    <string name="category_dessert">DESSERT WINE</string>
+    <string name="category_fortified">FORTIFIED WINE</string>
+
+    <!-- ALL the reds -->
+    <string name="red_choose">SELECT A WINE</string>
+    <string name="red_cabernet_franc">Cabernet Franc</string>
+    <string name="red_cabernet_sauvignon">Cabernet Sauvignon</string>
+    <string name="red_gamay">Gamay</string>
+    <string name="red_grenache_garnacha">Grenache/Garnacha</string>
+    <string name="red_malbec">Malbec</string>
+    <string name="red_merlot">Merlot</string>
+    <string name="red_mourvedre_mataro">Mourvèdre/Mataro</string>
+    <string name="red_nebbiolo">Nebbiolo</string>
+    <string name="red_pinot_noir">Pinot Noir</string>
+    <string name="red_sangiovese">Sangiovese</string>
+    <string name="red_syrah_shiraz">Syrah/Shiraz</string>
+    <string name="red_zinfandel">Zinfandel</string>
+    <string name="red_alicante">Alicante</string>
+    <string name="red_baco_noir">Baco Noir</string>
+    <string name="red_barbera">Barbera</string>
+    <string name="red_pinot_meunier">Pinot Meunier</string>
+    <string name="red_primitivo">Primitivo</string>
+    <string name="red_touriga_nacional">Touriga Nacional</string>
+
+    <!-- ALL the whites -->
+    <string name="white_choose">SELECT A WINE</string>
+    <string name="white_albarino">Albariño</string>
+    <string name="white_aligote">Aligote</string>
+    <string name="white_assyrtiko">Assyrtiko</string>
+    <string name="white_chablis">Chablis</string>
+    <string name="white_chardonnay">Chardonnay</string>
+    <string name="white_chenin_blanc">Chenin Blanc</string>
+    <string name="white_cortese">Cortese (a.k.a. Gavi)</string>
+    <string name="white_gargenega">Gargenega (a.k.a. Soave)</string>
+    <string name="white_gewurztraminer">Gewürztraminer</string>
+    <string name="white_grenach_blanc">Grenache Blanc</string>
+    <string name="white_gruner_veltliner">Grüner Veltliner</string>
+    <string name="white_marsanne">Marsanne</string>
+    <string name="white_muller_thurgau">Müller-Thurgau</string>
+    <string name="white_muscadet">Muscadet</string>
+    <string name="white_picpoul">Picpoul</string>
+    <string name="white_pinot_blanc">Pinot Blanc</string>
+    <string name="white_pinot_grigio">Pinot Grigio/Pinot Gris</string>
+    <string name="white_riesling">Riesling</string>
+    <string name="white_sauvignon_blanc">Sauvignon Blanc</string>
+    <string name="white_semillon">Sémillon</string>
+    <string name="white_torrontes">Torrontés</string>
+    <string name="white_trebbiano">Trebbiano</string>
+    <string name="white_ugni_blanc">Ugni Blanc</string>
+    <string name="white_verdejo">Verdejo</string>
+    <string name="white_verdicchio">Verdicchio</string>
+    <string name="white_vermentino">Vermentino</string>
+    <string name="white_vinho_verde">Vinho Verde</string>
+    <string name="white_viognier">Viognier</string>
+    <string name="white_white_rioja">White Rioja</string>
+
+    <!-- ALL the desserts -->
+    <string name="dessert_choose">SELECT A WINE</string>
+    <string name="dessert_ice_wine">Ice Wine</string>
+    <string name="dessert_late_havest">Late Harvest</string>
+    <string name="dessert_madeira">Madeira (Bual and Malmsey)</string>
+    <string name="dessert_malvasia">Malvasia</string>
+    <string name="dessert_sauternes">Sauternes</string>
+    <string name="dessert_sherry">Sherry</string>
+    <string name="dessert_tokaji">Tokaji</string>
+    <string name="dessert_vin_santo">Vin Santo</string>
+    <string name="dessert_white_port">White Port</string>
+
+    <!-- ALL the fortifieds -->
+    <string name="fortified_choose">SELECT A WINE</string>
+    <string name="fortified_amontillado">Amontillado</string>
+    <string name="fortified_commandaria">Commandaria</string>
+    <string name="fortified_madeira">Madeira</string>
+    <string name="fortified_marsala">Marsala</string>
+    <string name="fortified_mistelle">Mistelle</string>
+    <string name="fortified_moscatel_de_situbal">Moscatel de Sitúbal</string>
+    <string name="fortified_muscat_of_samos">Muscat of Samos</string>
+    <string name="fortified_port">Port</string>
+    <string name="fortified_rasteau">Rasteau</string>
+    <string name="fortified_sherry">Sherry</string>
+    <string name="fortified_vermouth">Vermouth</string>
+
+    <!-- ALL the bottle sizes  -->
+    <string name="bottlesize_choose">SELECT SIZE</string>
+    <string name="bottlesize_split">187.5ml - Split (or piccolo)</string>
+    <string name="bottlesize_half">375ml - Half (or demi)</string>
+    <string name="bottlesize_standard">750ml - Standard</string>
+    <string name="bottlesize_magnum">1.5L - Magnum</string>
+    <string name="bottlesize_double_magnum">3L - Double Magnum</string>
+    <string name="bottlesize_jeroboam">1.5L - Jeroboam</string>
+    <string name="bottlesize_imperial">6L - Imperial</string>
+    <string name="bottlesize_salmanazar">9L - Salmanazar</string>
+    <string name="bottlesize_balthazar">12L - Balthazar</string>
+    <string name="bottlesize_nebuchadnezzar">15L - Nebuchadnezzar</string>
+
+    <!-- ALL the states (plus)-->
+    <string name="states_not_applicable">STATE N/A</string>
+    <string name="states_choose">STATE</string>
+    <string name="states_alabama">Alabama</string>
+    <string name="states_alaska">Alaska</string>
+    <string name="states_american_samoa">American Samoa</string>
+    <string name="states_arizona">Arizona</string>
+    <string name="states_arkansas">Arkansas</string>
+    <string name="states_california">California</string>
+    <string name="states_colorado">Colorado</string>
+    <string name="states_connecticut">Connecticut</string>
+    <string name="states_delaware">Delaware</string>
+    <string name="states_district_of_colombia">District of Colombia</string>
+    <string name="states_florida">Florida</string>
+    <string name="states_georgia">Georgia</string>
+    <string name="states_guam">Guam</string>
+    <string name="states_hawaii">Hawaii</string>
+    <string name="states_idaho">Idaho</string>
+    <string name="states_illinois">Illinois</string>
+    <string name="states_indiana">Indiana</string>
+    <string name="states_iowa">Iowa</string>
+    <string name="states_kansas">Kansas</string>
+    <string name="states_kentucky">Kentucky</string>
+    <string name="states_louisiana">Louisiana</string>
+    <string name="states_maine">Maine</string>
+    <string name="states_maryland">Maryland</string>
+    <string name="states_massachusetts">Massachusetts</string>
+    <string name="states_michigan">Michigan</string>
+    <string name="states_minnesota">Minnesota</string>
+    <string name="states_mississippi">Mississippi</string>
+    <string name="states_missouri">Missouri</string>
+    <string name="states_montana">Montana</string>
+    <string name="states_nebraska">Nebraska</string>
+    <string name="states_nevada">Nevada</string>
+    <string name="states_new_hampshire">New Hampshire</string>
+    <string name="states_new_jersey">New Jersey</string>
+    <string name="states_new_mexico">New Mexico</string>
+    <string name="states_new_york">New York</string>
+    <string name="states_north_carolina">North Carolina</string>
+    <string name="states_north_dakota">North Dakota</string>
+    <string name="states_northern_marianas_islands">Northern Marianas Islands</string>
+    <string name="states_ohio">Ohio</string>
+    <string name="states_oklahoma">Oklahoma</string>
+    <string name="states_oregon">Oregon</string>
+    <string name="states_pennsylvania">Pennsylvania</string>
+    <string name="states_puerto_rico">Puerto Rico</string>
+    <string name="states_rhode_island">Rhode Island</string>
+    <string name="states_south_carolina">South Carolina</string>
+    <string name="states_south_dakota">South Dakota</string>
+    <string name="states_tennessee">Tennesse</string>
+    <string name="states_texas">Texas</string>
+    <string name="states_utah">Utah</string>
+    <string name="states_vermont">Vermont</string>
+    <string name="states_virginia">Virginia</string>
+    <string name="states_virgin_islands">Virgin Islands</string>
+    <string name="states_washington">Washington</string>
+    <string name="states_west_virginia">West Virginia</string>
+    <string name="states_wisconsin">Wisconsin</string>
+    <string name="states_wyoming">Wyoming</string>
+
+    <!-- The top 72 wine producing countries -->
+    <string name="countries_choose">COUNTRY</string>
+    <string name="countries_albania">Albania</string>
+    <string name="countries_algeria">Algeria</string>
+    <string name="countries_argentina">Argentina</string>
+    <string name="countries_armenia">Armenia</string>
+    <string name="countries_australia">Australia</string>
+    <string name="countries_austria">Austria</string>
+    <string name="countries_azerbaijan">Azerbaijan</string>
+    <string name="countries_belarus">Belarus</string>
+    <string name="countries_belgium">Belgium</string>
+    <string name="countries_bolivia">Bolivia</string>
+    <string name="countries_bosnia_and_herzegovina">Bosnia and Herzegovina</string>
+    <string name="countries_brazil">Brazil</string>
+    <string name="countries_bulgaria">Bulgaria</string>
+    <string name="countries_canada">Canada</string>
+    <string name="countries_chile">Chile</string>
+    <string name="countries_china">China</string>
+    <string name="countries_colombia">Colombia</string>
+    <string name="countries_croatia">Croatia</string>
+    <string name="countries_cuba">Cuba</string>
+    <string name="countries_cyprus">Cyprus</string>
+    <string name="countries_czech_republic">Czech Republic</string>
+    <string name="countries_egypt">Egypt</string>
+    <string name="countries_estonia">Estonia</string>
+    <string name="countries_ethiopia">Ethiopia</string>
+    <string name="countries_france">France</string>
+    <string name="countries_georgia">Georgia</string>
+    <string name="countries_germany">Germany</string>
+    <string name="countries_greece">Greece</string>
+    <string name="countries_hungary">Hungary</string>
+    <string name="countries_israel">Israel</string>
+    <string name="countries_italy">Italy</string>
+    <string name="countries_japan">Japan</string>
+    <string name="countries_jordan">Jordan</string>
+    <string name="countries_kazakhstan">Kazakhstan</string>
+    <string name="countries_kyrgyzstan">Kyrgyzstan</string>
+    <string name="countries_latvia">Latvia</string>
+    <string name="countries_lebanon">Lebanon</string>
+    <string name="countries_liechtenstein">Liechtenstein</string>
+    <string name="countries_lithuania">Lithuania</string>
+    <string name="countries_luxembourg">Luxembourg</string>
+    <string name="countries_madegascar">Madagascar</string>
+    <string name="countries_malta">Malta</string>
+    <string name="countries_mexico">Mexico</string>
+    <string name="countries_moldova">Moldova</string>
+    <string name="countries_montenegro">Montenegro</string>
+    <string name="countries_morocco">Morocco</string>
+    <string name="countries_new_zealand">New Zealand</string>
+    <string name="countries_panama">Panama</string>
+    <string name="countries_paraguay">Paraguay</string>
+    <string name="countries_peru">Peru</string>
+    <string name="countries_portugal">Portugal</string>
+    <string name="countries_republic_of_macedonia">Republic of Macedonia</string>
+    <string name="countries_romania">Romania</string>
+    <string name="countries_russia">Russia</string>
+    <string name="countries_reunion">Réunion</string>
+    <string name="countries_serbia">Serbia</string>
+    <string name="countries_slovakia">Slovakia</string>
+    <string name="countries_slovenia">Slovenia</string>
+    <string name="countries_south_africa">South Africa</string>
+    <string name="countries_spain">Spain</string>
+    <string name="countries_switzerland">Switzerland</string>
+    <string name="countries_syria">Syria</string>
+    <string name="countries_tajikistan">Tajikistan</string>
+    <string name="countries_tunisia">Tunisia</string>
+    <string name="countries_turkey">Turkey</string>
+    <string name="countries_tukmenistan">Turkmenistan</string>
+    <string name="countries_ukraine">Ukraine</string>
+    <string name="countries_united_kingdom">United Kingdom</string>
+    <string name="countries_united_states">United States</string>
+    <string name="countries_uruguay">Uruguay</string>
+    <string name="countries_uzbekistan">Uzbekistan</string>
+    <string name="countries_zimbabwe">Zimbabwe</string>
+
+    <!-- validations empty replacement strings -->
+    <string name="validation_other">OTHER</string>
+    <string name="validation_name_empty">NO NAME PROVIDED</string>
+    <string name="validation_winery_empty">NO WINERY PROVIDED</string>
+    <string name="validation_description_empty">NO DESCRIPTION PROVIDED</string>
+    <string name="validation_bottlesize_empty">NO BOTTLE SIZE PROVIDED</string>
+    <string name="validation_distributor_empty">NO DISTRIBUTOR LISTED</string>
+
+    <string name="save_insert_error">There was an error saving this wine</string>
+    <string name="save_insert_success">Wine saved</string>
+    <string name="save_update_success">Wine updated</string>
+    <string name="save_update_error">Failure to update wine</string>
+    <string name="save_error_code_1">Please enter at least a name and a price.</string>
+    <string name="save_error_code_2">Please enter a valid year.</string>
+    <string name="save_error_code_3">Please enter a valid phone number or leave it blank.</string>
+    <string name="details_order_more_no_phone">Please enter a phone number to place an order.</string>
+    <string name="details_add_or_remove_error">That is more that you have to give!</string>
+    <string name="details_camera_dialog_toast">Use "CHANGE PHOTO" to set it later.</string>
+    <string name="details_delete_message">Are you sure you want to delete this wine?</string>
+    <string name="details_delete_yes">Yes</string>
+    <string name="details_delete_no">No</string>
+    <string name="catalog_delete_title">STOP!!!</string>
+    <string name="catalog_delete_message">Are you sure you want to delete ALL the wines?</string>
+    <string name="catalog_delete_yes">Yes</string>
+    <string name="catalog_delete_no">No</string>
+
+    <string name="provider_exception_query">Cannot query unknown URI</string>
+    <string name="provider_exception_insert">Insertion is not supported for:</string>
+    <string name="provider_exception_name">The wine needs to be named</string>
+    <string name="provider_exception_update">Update is not supported for</string>
+    <string name="provider_exception_winery">Winery needs to be identified</string>
+    <string name="provider_exception_need_name">Wine needs to be named</string>
+    <string name="provider_exception_varietal">Wine varietal needs to be designated</string>
+    <string name="provider_exception_year">Error with year</string>
+    <string name="provider_exception_delete">Deletion is not supported for:</string>
+    <string name="provider_timezone_">UTC</string>
+    <string name="provider_error_log_insert">Failed to insert row for: </string>
+
+</resources>

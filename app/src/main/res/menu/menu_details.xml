@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_action_save"
+        android:orderInCategory="100"
+        android:title="@string/details_menu_action_save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_action_add_to_inventory"
+        android:orderInCategory="101"
+        android:title="@string/details_menu_action_increment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_action_add_a_case_to_inventory"
+        android:orderInCategory="102"
+        android:title="@string/details_menu_action_increment_a_case"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_action_remove_from_inventory"
+        android:orderInCategory="103"
+        android:title="@string/details_menu_action_decrement"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_action_remove_a_case_from_inventory"
+        android:orderInCategory="104"
+        android:title="@string/details_menu_action_decrement_a_case"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_action_delete_product_from_inventory"
+        android:orderInCategory="105"
+        android:title="@string/details_menu_action_delete_product_from_inventory"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_action_order_more_product"
+        android:orderInCategory="106"
+        android:title="@string/details_menu_action_order_more_product"
+        app:showAsAction="never" />
+
+    <!-- android:icon="@drawable/ic_done" -->
+
+</menu>
